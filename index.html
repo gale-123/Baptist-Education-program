@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ebenezer Baptist Christian Academy - Kajo-Keji Luwakoke</title>
+    <link rel="icon" type="image/png" href="imges/ebca logo 2026.jpg" width="21" height="21" />
+  <link rel="stylesheet" href="css/style.css">
+  <style type="text/css">
+<!--
+.style1 {
+	font-size: 26px;
+	font-family: "Times New Roman", Times, serif;
+}
+-->
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="topbar">
+    <div class="logo">
+      <div align="center"><span><img src="imges/ebca.png" alt="logo" width="25%" height="25%"></span>      </div>
+      <div>
+        <h2 class="style1">EBENEZER BAPTIST EDUCATION PROGRAM</h2>
+        <blockquote>
+          <blockquote>
+            <blockquote>
+              <p>KAJO-KEJI • LUWAKOKE • PREPARATION FOR SERVICE</p>
+            </blockquote>
+          </blockquote>
+        </blockquote>
+      </div>
+    </div>
+    <a class="call-btn" href="tel:+211924229260">📞 +211 924 229 260</a>
+    <div class="hamburger" onClick="toggleMenu()">☰</div>
+  </div>
+  <nav>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" onClick="showPage('home')">Home</a></li>
+      <li><a href="#about" onClick="showPage('about')">About Us</a></li>
+      <li class="dropdown">
+        <a href="#">Vision &amp; Mission ▾</a>
+        <div class="dropdown-content">
+          <a href="#vision" onClick="showPage('vision')">Our Vision</a>
+          <a href="#mission" onClick="showPage('mission')">Our Mission</a>
+          <a href="#values" onClick="showPage('values')">Core Values</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="#">Our Schools ▾</a>
+        <div class="dropdown-content">
+          <a href="#nursery" onClick="showPage('nursery')">Ebenezer Baptist Nursery School</a>
+          <a href="#primary" onClick="showPage('primary')">Ebenezer Baptist Primary School</a>
+          <a href="#secondary" onClick="showPage('secondary')">Ebenezer Baptist Christian Academy</a>
+          <a href="#lab" onClick="showPage('lab')">Computer Lab</a>
+          <a href="#fees" onClick="showPage('fees')">Fees Structure</a>
+        </div>
+      </li>
+      <li><a href="#gallery" onClick="showPage('gallery')">Gallery</a></li>
+      <li><a href="#fees" onClick="showPage('fees')">Fees</a></li>
+      <li><a href="#admissions" onClick="showPage('admissions')">Admissions</a></li>
+      <li><a href="#contact" onClick="showPage('contact')">Contact Us</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div id="home" class="page">
+  <div class="hero">
+
+    <div class="hero-inner">
+
+      <h2>Welcome to Ebenezer Baptist Christian Academy</h2>
+      <p>Nursery • Primary • Secondary - Boarding &amp; Day - Building Godly Character, Academic Excellence &amp; Preparation for Service in Kajo-Keji, Luwakoke.</p>
+      <a class="btn" href="#admissions" onClick="showPage('admissions')">Apply Now</a>
+      <a class="btn btn-outline" href="#fees" onClick="showPage('fees')">See Fees - Day &amp; Boarding</a>
+      <p class="hero-contact">📞 <a href="tel:+211924229260">+211 924 229 260</a> | 💬 WhatsApp Same Number</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="grid">
+      <div class="card">
+        <span class="pic p-nursery" role="img" aria-label="Nursery"><span class="pic p-classroom"><img src="imges/n.png" alt="pupils" width="564" height="334"></span></span>
+        <div class="card-body"><br><br><br><br><br><br>
+          <h3>🌈 Nursery</h3>
+          <p>Play-based learning, phonics, numbers, Bible stories for ages 3-5.</p>
+          <div class="fee">Day: 60,000 SSP <small>per Term</small> Boarding: 100,000 SSP <small>per Term</small></div>
+          <span class="badge">Day &amp; Boarding Available</span><br><br>
+          <a href="#nursery" onClick="showPage('nursery')">Learn More →</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="pic p-primary" role="img" aria-label="Primary"><span class="pic p-classroom"><img src="imges/pupils.avif" alt="pupils" width="564" height="334"></span></span>
+        <div class="card-body"><br><br><br><br><br><br>
+          <h3>📚 Primary</h3>
+          <p>P1-P8: English, Maths, Science, CRE &amp; Computer with discipline.</p>
+          <div class="fee">Day: 70,000 SSP <small>per Term</small> Boarding: 120,000 SSP <small>per Term</small></div>
+          <span class="badge">Day &amp; Boarding Available</span><br><br>
+          <a href="#primary" onClick="showPage('primary')">Learn More →</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="pic p-secondary" role="img" aria-label="Secondary"><span class="pic p-classroom"><img src="imges/students.jpg" alt="pupils" width="564" height="334"></span></span>
+        <div class="card-body"><br><br><br><br><br><br>
+          <h3>🎓 Secondary</h3>
+          <p>S1-S4: Sciences, Arts, Agriculture, Business &amp; Christian leadership.</p>
+          <div class="fee">Day: 150,000 SSP <small>per Term</small> Boarding: 250,000 SSP <small>per Term</small></div>
+          <span class="badge">Day &amp; Boarding Available</span><br><br>
+          <a href="#secondary" onClick="showPage('secondary')">Learn More →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>📸 Our Pupils in Action</h2>
+      <div class="gallery">
+        <figure><span class="pic p-pupils" role="img" aria-label="Happy Pupils Learning"><span class="pic p-classroom"><img src="imges/pupils.avif" alt="pupils" width="564" height="334"></span></span>
+        <figcaption>Happy Pupils Learning</figcaption></figure>
+        <figure>
+          <span class="pic p-classroom" role="img" aria-label="Classroom Learning"><img src="imges/students.jpg" alt="pupils" width="564" height="334"></span>
+          <figcaption>Classroom Learning</figcaption></figure>
+        <figure><span class="pic p-play" role="img" aria-label="Playing &amp; Growing Together"><span class="pic p-classroom"><img src="imges/studentsss.jpg" alt="pupils" width="612" height="408"></span></span>
+        <figcaption>Playing &amp; Growing Together</figcaption></figure>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>📚 Different Subjects We Teach</h2>
+      <div class="subject-grid">
+        <div class="subject"><span class="pic p-english" role="img" aria-label="English"></span><img src="imges/studentsss.jpg" alt="eng"><span>English</span></div>
+        <div class="subject"><span class="pic p-math" role="img" aria-label="Mathematics"></span><img src="imges/studentsss.jpg" alt="eng"><span>Mathematics</span></div>
+        <div class="subject"><span class="pic p-science" role="img" aria-label="Science"></span><img src="imges/science1.webp" alt="eng"><span>Science</span></div>
+        <div class="subject"><span class="pic p-ict" role="img" aria-label="Computer / ICT"></span><img src="imges/pc.jpg" width="100%" height="90%" alt="eng"><span>Computer / ICT</span></div>
+        <div class="subject"><span class="pic p-logo" role="img" aria-label="Christian Religious Education"></span><img src="imges/holy bible.jpg" width="100%" height="90%" alt="eng"><span>Christian Religious Education</span></div>
+        <div class="subject"><span class="pic p-agri" role="img" aria-label="Agriculture"><img src="imges/science.webp" width="100%" height="90%" alt="eng"><span>Agriculture</span></div>
+        <div class="subject"><img src="imges/studentsss.jpg" alt="eng"><span class="pic p-business" role="img" aria-label="Business Studies"></span><img src="imges/t.jpg" width="100%" height="90%" alt="eng"><span>Business Studies</span></div>
+        <div class="subject"><span class="pic p-history" role="img" aria-label="Social Studies / History"></span><img src="imges/holy bible.jpg" width="100%" height="90%" alt="eng"><span>Social Studies / History</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="about" class="page page-hidden">
+  <div class="container">
+    <div class="section">
+      <h2>About Us</h2>
+      <span class="pic p-pupils banner-pic" role="img" aria-label="About Ebenezer Baptist Christian Academy"><img src="imges/c.jpg" width="100%" height="150%"></span><br><br><br><br><br><br>
+      <p>Ebenezer Baptist Christian Academy is in Luwakoke, Kajo-Keji. We serve Nursery, Primary &amp; Secondary - <b>Both Boarding and Day</b> - with Christian values. Motto: <b>PREPARATION FOR SERVICE</b></p>
+      <p>📞 Call / WhatsApp: <b>+211 924 229 260</b></p>
+    </div>
+  </div>
+</div>
+
+<div id="vision" class="page page-hidden">
+  <div class="container">
+    <div class="section">
+      <h2>Our Vision</h2>
+      <p>To raise God-fearing, disciplined, knowledgeable learners who transform communities.</p>
+    </div>
+  </div>
+</div>
+
+<div id="mission" class="page page-hidden">
+  <div class="container">
+    <div class="section">
+      <h2>Our Mission</h2>
+      <p>To provide quality Christian education that nurtures spiritual growth, academic excellence and practical skills.</p>
+    </div>
+  </div>
+</div>
+
+<div id="values" class="page page-hidden">
+  <div class="container">
+    <div class="section">
+      <h2>Core Values</h2>
+      <p>Faith • Discipline • Honesty • Hard Work • Respect • Service • Excellence</p>
+    </div>
+  </div>
+</div>
+
+<div id="nursery" class="page page-hidden">
+  <div class="container">
+    <div class="section">
+      <h2>Nursery - Baby Class, KG1, KG2</h2>
+      <span class="pic p-nursery banner-pic-lg" role="img" aria-label="Nursery Classes"><img src="imges/s.jpg" width="100%" height="150%"></span><br><br><br><br><br><br>
+      <p>Ages 3-5. Play, songs, phonics, numbers, Bible stories.</p>
+      <p><b>Day: 60,000 SSP / Term | Boarding: 100,000 SSP / Term</b></p>
+      <table>
+        <tr><th>Class</th><th>Age</th><th>Focus</th></tr>
+        <tr><td>Baby Class</td><td>3 yrs</td><td>Colours, Rhymes, Social Skills</td></tr>
+        <tr><td>KG1</td><td>4 yrs</td><td>Letters, Numbers 1-20</td></tr>
+        <tr><td>KG2</td><td>5 yrs</td><td>Reading, Writing, 1-100</td></tr>
+      </table><br>
+      <button onClick="showPage('admissions')">Apply for Nursery</button>
+    </div>
+  </div>
+</div>
+
+<div id="primary" class="page page-hidden">
+  <div class="container">
+    <div class="section">
+      <h2>Primary - P1 to P8</h2>
+      <span class="pic p-primary banner-pic-lg" role="img" aria-label="Primary Classes"><img src="imges/l.png" width="100%" height="130%"></span><br><br><br><br>
+      <p>English, Maths, Science, Social Studies, CRE, Arabic, PE, Computer.</p>
+      <p><b>Day: 70,000 SSP / Term | Boarding: 120,000 SSP / Term</b></p>
+      <button onClick="showPage('admissions')">Apply for Primary</button>
+    </div>
+  </div>
+</div>
+
+<div id="secondary" class="page page-hidden">
+  <div class="container">
+    <div class="section">
+      <h2>Secondary - S1 to S4</h2>
+      <span class="pic p-secondary banner-pic-lg" role="img" aria-label="Secondary Classes"><img src="imges/cc.jpg" width="100%" height="150%"></span><br><br><br><br><br><br>
+      <p>Sciences, Arts, Agriculture, Business, CRE, Computer, Leadership.</p>
+      <p><b>Day: 150,000 SSP / Term | Boarding: 250,000 SSP / Term</b></p>
+      <button onClick="showPage('admissions')">Apply for Secondary</button>
+    </div>
+  </div>
+</div>
+
+<div id="lab" class="page page-hidden">
+  <div class="container">
+    <div class="section">
+      <h2>💻 Computer Lab</h2>
+      <span class="pic p-ict banner-pic-lg" role="img" aria-label="Computer Lab"><img src="imges/c.jpg" width="100%" height="130%"></span><br><br><br><br>
+      <p>Our pupils learn Computer from Nursery to Secondary: Typing, MS Word, Excel, Internet Safety, Coding Basics &amp; Research.</p>
+      <div class="gallery">
+        <figure><img src="imges/lab.png" width="100%" height="85%"><span> </span><figcaption>Computer Lab - Learning ICT</figcaption></figure>
+        <figure><img src="imges/lesson.png" width="100%" height="85%"><span></span><figcaption>Practical Lessons</figcaption></figure>
+        <figure><img src="imges/tt.png" width="100%" height="85%"><span> </span><figcaption>Typing &amp; MS Word</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="fees" class="page page-hidden">
+  <div class="container">
+    <div class="section">
+      <h2>Fees Structure - In SSP (South Sudanese Pounds)</h2>
+      <p><b>All fees are per Term.</b> Choose Day or Boarding.</p>
+      <table>
+        <tr><th>Level</th><th>Classes</th><th>Day Scholar (SSP)</th><th>Boarding (SSP)</th></tr>
+        <tr><td>🌈 Nursery</td><td>Baby Class, KG1, KG2</td><td><b>60,000</b></td><td><b>100,000</b></td></tr>
+        <tr><td>📚 Primary</td><td>P1 - P8</td><td><b>70,000</b></td><td><b>120,000</b></td></tr>
+        <tr><td>🎓 Secondary</td><td>S1 - S4</td><td><b>150,000</b></td><td><b>250,000</b></td></tr>
+      </table><br>
+      <p>
+        ✅ Fees include Tuition &amp; Learning Materials<br>
+        ✅ Boarding includes Accommodation, Meals &amp; Supervision<br>
+        ✅ Affordable &amp; Flexible Payment - Talk to us on <b>+211 924 229 260</b><br>
+        ✅ Discount for siblings - Call for details
+      </p><br>
+      <a class="btn" href="https://wa.me/211924229260" target="_blank">💬 Ask About Fees on WhatsApp</a>
+      <a class="btn btn-outline" href="#admissions" onClick="showPage('admissions')">Apply Now</a>
+    </div>
+  </div>
+</div>
+
+<div id="gallery" class="page page-hidden">
+  <div class="container">
+    <div class="section">
+      <h2>Gallery - Our School Life</h2>
+      <div class="gallery">
+        <figure><span class="pic p-nursery" role="img" aria-label="Nursery Pupils"></span><figcaption>Nursery Pupils</figcaption></figure>
+        <figure><span class="pic p-primary" role="img" aria-label="Primary Pupils"></span><figcaption>Primary Pupils</figcaption></figure>
+        <figure><span class="pic p-secondary" role="img" aria-label="Secondary Students"></span><figcaption>Secondary Students</figcaption></figure>
+        <figure><span class="pic p-ict" role="img" aria-label="Computer Lab"></span><figcaption>Computer Lab</figcaption></figure>
+        <figure><span class="pic p-classroom" role="img" aria-label="Classroom"></span><figcaption>Classroom</figcaption></figure>
+        <figure><span class="pic p-play" role="img" aria-label="Sports &amp; Play"></span><figcaption>Sports &amp; Play</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="admissions" class="page page-hidden">
+  <div class="container">
+    <div class="section">
+      <h2>Admissions - Apply Online</h2>
+      <p>Fees per Term: Nursery Day <b>60,000 SSP</b> / Boarding <b>100,000 SSP</b> | Primary Day <b>70,000 SSP</b> / Boarding <b>120,000 SSP</b> | Secondary Day <b>150,000 SSP</b> / Boarding <b>250,000 SSP</b></p>
+      <form onSubmit="submitForm(event)">
+        <input id="pname" placeholder="Parent Name *" required>
+        <input id="cname" placeholder="Child Name *" required>
+        <select id="level">
+          <option>Nursery - Day 60,000 SSP / Boarding 100,000 SSP</option>
+          <option>Primary - Day 70,000 SSP / Boarding 120,000 SSP</option>
+          <option>Secondary - Day 150,000 SSP / Boarding 250,000 SSP</option>
+        </select>
+        <select id="mode">
+          <option>Day Scholar</option>
+          <option>Boarding</option>
+        </select>
+        <select>
+          <option>Baby Class</option>
+          <option>KG1</option>
+          <option>KG2</option>
+          <option>P1 - P8</option>
+          <option>S1 - S4</option>
+        </select>
+        <input id="phone" placeholder="Phone / WhatsApp *" required>
+        <textarea placeholder="Message"></textarea>
+        <button type="submit">Submit Application</button>
+        <p id="msg" class="form-msg"></p>
+      </form>
+      <p class="apply-wa">Or apply directly on WhatsApp: <a href="https://wa.me/211924229260">+211 924 229 260</a></p>
+    </div>
+  </div>
+</div>
+
+<div id="contact" class="page page-hidden">
+  <div class="container">
+    <div class="section">
+      <h2>Contact Us</h2>
+      <p>
+        📍 <b>Location:</b> Luwakoke, Kajo-Keji, Central Equatoria, South Sudan<br>
+        📞 <b>Phone / WhatsApp:</b> <a href="tel:+211924229260">+211 924 229 260</a><br>
+        ✉️ <b>Email:</b> info@ebenezerkajo-keji.edu.ss<br>
+        🕐 <b>Office Hours:</b> Mon - Fri 8am - 4pm, Sat 9am - 12pm<br>
+        🏫 <b>Boarding &amp; Day Available</b>
+      </p>
+      <form onSubmit="contactForm(event)">
+        <input placeholder="Your Name" required>
+        <input placeholder="Phone" required>
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit">Send Message</button>
+        <p id="cmsg" class="form-msg"></p>
+      </form>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <h3>EBENEZER BAPTIST CHRISTIAN ACADEMY</h3>
+  <p>Preparation for Service | Kajo-Keji Luwakoke | Boarding &amp; Day</p>
+  <p> Day: Nursery 60,000 | Primary 70,000 | Secondary 150,000 SSP | Boarding: Nursery 100,000 | Primary 120,000 | Secondary 250,000 SSP<br>| 📞 +211 924 229 260 | 📞 +211 924 229 260 | </p>
+  <p>© 2026 Ebenezer Baptist Christian Academy</p>
+</footer>
+
+<a class="float" href="https://wa.me/211924229260" target="_blank">💬 WhatsApp +211 924 229 260</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>
